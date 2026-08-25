@@ -24,6 +24,7 @@ namespace Lab02
             Console.WriteLine("===== BOSS STATUS: INITIAL =====");
             Console.WriteLine($"Name: {bossName}");
             Console.WriteLine($"Rank: {rank}");
+            Console.WriteLine($"Level: {level}");
             Console.WriteLine($"HP {currentHp} / {maxHp}");
             Console.WriteLine($"Attack power: {attackPower}");
             Console.WriteLine($"Crit Multiplier : {critMultiplier}");
