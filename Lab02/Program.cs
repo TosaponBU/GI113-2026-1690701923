@@ -23,7 +23,7 @@ namespace Lab02
             //ประกาศตัวแปร 6 ตัว
             Console.WriteLine("===== BOSS STATUS: INITIAL =====");
             Console.WriteLine($"Name: {bossName}");
-            Console.WriteLine($"Rabk: {rank}");
+            Console.WriteLine($"Rank: {rank}");
             Console.WriteLine($"HP {currentHp} / {maxHp}");
             Console.WriteLine($"Attack power: {attackPower}");
             Console.WriteLine($"Crit Multiplier : {critMultiplier}");
