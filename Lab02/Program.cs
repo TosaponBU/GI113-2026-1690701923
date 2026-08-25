@@ -71,8 +71,8 @@ namespace Lab02
             int maxRelationship1 = 10;
             int high1 = 168;
             int weight1 = 46;
-            float STR1 = 12.5f;
-            float INT1 = 47.5f;
+            float str1 = 12.5f;
+            float int1 = 47.5f;
             double monney1 = 46.6666;
             Console.WriteLine($"Name: {name1}");
             Console.WriteLine($"Personality: {personality1}");
@@ -80,7 +80,7 @@ namespace Lab02
             Console.WriteLine($"Can make relation: {status1}");
             Console.WriteLine($"Relationship: {currentRelationship1}/{maxRelationship1}");
             Console.WriteLine($"High: {high1} Weight: {weight1}");
-            Console.WriteLine($"STR: {STR1} INT: {INT1}");
+            Console.WriteLine($"STR: {str1} INT: {int1}");
             Console.WriteLine($"Have monneys: {monney1}$");
             Console.WriteLine($"Give Rose -----> {currentRelationship1 + relationshipTool1 }/{maxRelationship1}");
             Console.WriteLine();
@@ -93,8 +93,8 @@ namespace Lab02
             int maxRelationship2 = 10;
             int high2 = 178;
             int weight2 = 70;
-            float STR2 = 32.5f;
-            float INT2 = 50.5f;
+            float str2 = 32.5f;
+            float int2 = 50.5f;
             double monney2 = 102.2222;
             Console.WriteLine($"Name: {name2}");
             Console.WriteLine($"Personality: {personality2}");
@@ -102,7 +102,7 @@ namespace Lab02
             Console.WriteLine($"Can make relation: {status2}");
             Console.WriteLine($"Relationship: {currentRelationship2}/{maxRelationship2}");
             Console.WriteLine($"High: {high2} Weight: {weight2}");
-            Console.WriteLine($"STR: {STR2} INT: {INT2}");
+            Console.WriteLine($"STR: {str2} INT: {int2}");
             Console.WriteLine($"Have monneys: {monney2}$");
             Console.WriteLine($"Give Rose -----> {currentRelationship2 + relationshipTool1}/{maxRelationship2}");
             Console.WriteLine();
@@ -115,8 +115,8 @@ namespace Lab02
             int maxRelationship3 = 10;
             int high3 = 172;
             int weight3 = 56;
-            float STR3 = 20.5f;
-            float INT3 = 35.5f;
+            float str3 = 20.5f;
+            float int3 = 35.5f;
             double monney3 = 29.9999;
             Console.WriteLine($"Name: {name3}");
             Console.WriteLine($"Personality: {personality3}");
@@ -124,7 +124,7 @@ namespace Lab02
             Console.WriteLine($"Can make relation: {status3}");
             Console.WriteLine($"Relationship: {currentRelationship3}/{maxRelationship3}");
             Console.WriteLine($"High: {high3} Weight: {weight3}");
-            Console.WriteLine($"STR: {STR3} INT: {INT3}");
+            Console.WriteLine($"STR: {str3} INT: {int3}");
             Console.WriteLine($"Have monneys: {monney3}$");
             Console.WriteLine($"Give Sunflower -----> {currentRelationship3 + relationshipTool2}/{maxRelationship3}");
             Console.WriteLine();
@@ -137,8 +137,8 @@ namespace Lab02
             int maxRelationship4 = 10;
             int high4 = 192;
             int weight4 = 88;
-            float STR4 = 79.5f;
-            float INT4 = 12.5f;
+            float str4 = 79.5f;
+            float int4 = 12.5f;
             double monney4 = 0.00012;
             Console.WriteLine($"Name: {name4}");
             Console.WriteLine($"Personality: {personality4}");
@@ -146,10 +146,9 @@ namespace Lab02
             Console.WriteLine($"Can make relation: {status4}");
             Console.WriteLine($"Relationship: {currentRelationship4}/{maxRelationship4}");
             Console.WriteLine($"High: {high4} Weight: {weight4}");
-            Console.WriteLine($"STR: {STR4} INT: {INT4}");
+            Console.WriteLine($"STR: {str4} INT: {int4}");
             Console.WriteLine($"Have monneys: {monney4}$");
             Console.WriteLine($"Give Sunflower -----> {currentRelationship4 + relationshipTool2}/{maxRelationship4}");
-
 
         }
     }
