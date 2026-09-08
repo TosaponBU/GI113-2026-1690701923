@@ -27,6 +27,7 @@ namespace Lab04
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|           ITEM SHOP           |");
             Console.WriteLine("+------------------------------+");
+
             Console.Write("How many potions? ");
             bool quantityOK = int.TryParse(Console.ReadLine(), out int quantity);
             Console.WriteLine($"Valid input: {quantityOK}");
@@ -35,6 +36,7 @@ namespace Lab04
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|          SET VOLUME           |");
             Console.WriteLine("+------------------------------+");
+
             Console.Write("Set music volume (0.0-1.0): ");
             bool volumeOK = double.TryParse(Console.ReadLine(), out double volume);
             Console.WriteLine($"Valid input: {volumeOK}");
@@ -43,6 +45,7 @@ namespace Lab04
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|         NEW SAVE FILE         |");
             Console.WriteLine("+------------------------------+");
+
             Console.Write("Enter save name: ");
             string saveName = Console.ReadLine();
             Console.Write("Choose save slot (1-3): ");
