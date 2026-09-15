@@ -1,4 +1,12 @@
-﻿namespace Lab05
+﻿/*
+ * Student ID : 1690701923
+ * Name       : Lab05
+ * Section    : 129C
+ * No.        : 4
+ * Course     : GI113 Computer Programming (GI)
+ */
+
+namespace Lab05
 {
     internal class Program
     {
