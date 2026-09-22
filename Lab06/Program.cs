@@ -107,7 +107,12 @@ namespace Lab06
                 Console.WriteLine("Click! Click! Guest what?");
                 Console.WriteLine("You dead.");
             }
-                    
+
+            else if (choice == 3)
+            {
+                Console.WriteLine("You aren't Bruce Lee");
+                Console.WriteLine("You dead.");
+            }
         }
     }
 }
