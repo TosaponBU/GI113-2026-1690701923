@@ -124,7 +124,7 @@ namespace Lab06
                 Console.WriteLine("What are you do next.");
                 Console.WriteLine("1. Pull the trigger ASAP!");
                 Console.WriteLine("2. Calmly aim.");
-                Console.Write("Choose your decision (1-2): ");
+                Console.Write("\nChoose your decision (1-2): ");
                 bool inputValid01 = int.TryParse(Console.ReadLine(), out int sideChoice01);
                 if (!inputValid01 || sideChoice01 < 1 || sideChoice01 > 2)
                 {
@@ -133,7 +133,7 @@ namespace Lab06
                 }
                 else if (sideChoice01 == 1)
                 {
-                    Console.WriteLine("\nRat-a-tat-tat! Rat-tat-tat!");
+                    Console.WriteLine("Rat-a-tat-tat! Rat-tat-tat!");
                     Console.WriteLine("Now zombie look like a beehive...");
                     Console.WriteLine("You well done.");
                 }
