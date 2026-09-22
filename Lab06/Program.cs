@@ -24,6 +24,7 @@ namespace Lab06
             }
 
             //int level = 10;
+            bool hasKey = false;
             Console.Write("Your level (1-99): ");
             bool inputValid = int.TryParse(Console.ReadLine(), out int level);
 
@@ -33,13 +34,20 @@ namespace Lab06
             }
 
             //ถ้าใช้หลายเงื่อนไข ให้เลขมากสุดอยู่ข้างบน (เช็คมาก -> น้อย)
-            if (level >= 10) //เงื่อนไข 1
+            if (level >= 10 ) //เงื่อนไข 1 
             {
-                Console.WriteLine("Boss floor unlocked");
+                Console.WriteLine("Boss floor unlocked.");
             }
             else if (level >= 5) //เงื่อนไข 2 จะรันถ้าไม่ตรงเงื่อนไข 1
             {
-                Console.WriteLine("The door opens.");
+                if (hasKey == true)
+                {
+                    Console.WriteLine("The door opens.");
+                }
+                else
+                {
+                    Console.WriteLine("Locked, Find the key.");
+                }
             }
             else
             {
