@@ -61,7 +61,7 @@ namespace Assignment02
                     else if (scrapMount > 0 && scrapMount <= MaxBatch)
                     {
                         double resultIngot = scrapMount * SmeltRate;
-                        Console.WriteLine($"You received: {resultIngot:F2} metal bar.");
+                        Console.WriteLine($"You received: {resultIngot:F2} metal bars.");
                     }
                 }
                 else if (menu == 'B' || menu == 'b')
@@ -81,7 +81,7 @@ namespace Assignment02
                     else if (metalMount > 0 && metalMount <= MaxBatch)
                     {
                         double resultScrap = metalMount / SalvageRate;
-                        Console.WriteLine($"You received: {resultScrap:F2} scrap.");
+                        Console.WriteLine($"You received: {resultScrap:F2} scraps.");
                     }
                 }
                 else
